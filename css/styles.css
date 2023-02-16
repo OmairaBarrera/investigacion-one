@@ -1,0 +1,66 @@
+.F-style1{
+    font-style: normal;
+}
+.F-style2{
+    font-style:italic;
+}
+.F-style3{
+    font-style:oblique;
+}
+.F-variant1{
+    font-variant: normal;
+}
+.F-variant2{
+    font-variant: small-caps;
+}
+.F-weight1{
+    font-weight: normal;
+}
+.F-weight2{
+    font-weight: bold;
+}
+.F-weight3-1{
+    font-weight:100;
+}
+.F-weight3-2{
+    font-weight:200;
+}
+.F-weight3-3{
+    font-weight:300;
+}
+.F-weight3-4{
+    font-weight:400;
+}
+.F-weight3-5{
+    font-weight:500;
+}
+.F-weight3-6{
+    font-weight:600;
+}
+.F-weight3-7{
+    font-weight:700;
+}
+.F-weight3-8{
+    font-weight:800;
+}
+.F-weight3-9{
+    font-weight:900;
+}
+.F-size1{
+    font-size: 70%;
+}
+.F-size2{
+    font-size: 20px;
+}
+.F-family1{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.F-family2{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.F.font1{
+    font: italic small-caps bold 25px Georgia, serif;
+}
+.F-font2{
+    font: small-caps;
+}
