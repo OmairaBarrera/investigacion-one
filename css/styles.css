@@ -1,3 +1,17 @@
+body{
+    background-color:antiquewhite;
+    width: calc(100vh - 60px);
+    margin:auto;
+    border: groove;
+}
+h1, h2{
+    text-align: center;
+}
+p{
+    font-weight: bold;
+    color: blue;
+}
+
 .F-style1{
     font-style: normal;
 }
@@ -63,4 +77,61 @@
 }
 .F-font2{
     font: small-caps;
+}
+.T-deco1{
+    text-decoration: overline;
+}
+.T-deco2{
+    text-decoration: line-through;
+}
+.T-deco3{
+    text-decoration: underline;
+}
+.T-deco4{
+    text-decoration: underline overline;
+}
+.T-tran1{
+    text-transform: uppercase;
+}
+.T-tran2{
+    text-transform: lowercase;
+}
+.T-tran3{
+    text-transform: capitalize;
+}
+.T-ali1{
+    text-align:right;
+}
+.T-ali2{
+    text-align: left;
+}
+.T-ali3{
+    text-align:center;
+}
+.T-ali4{
+    text-align: justify;
+}
+.T-ind{
+    text-indent: 10%;
+}
+.L-heig{
+    line-height:200%;
+}
+.L-spa{
+    letter-spacing: 15px;
+}
+.W-spa{
+    word-spacing: 15px;
+}
+.V-ali1{
+    vertical-align: baseline;
+}
+.V-ali2{
+    vertical-align: text-top;
+}
+.V-ali3{
+    vertical-align: super;
+}
+.V-ali4{
+    vertical-align: text-bottom;
 }
