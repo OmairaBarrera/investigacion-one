@@ -13,160 +13,146 @@ h2{
 }
 
 .contenedor{
-    width: 50%;
+    width: 20%;
     height: 50px;
-    background-color: greenyellow;
-    margin: auto;
-    border-style: dotted;
+    background-color: tomato;
+    text-align: center;
 }
 .contenedor1{
-    width: 50%;
+    width: 20%;
     height: 50px;
-    background-color: greenyellow;
-    margin: auto;
-    border-style: dashed;
+    background-color: orange;
+    text-align: center;
 }
 .contenedor2{
-    width: 50%;
+    width: 20%;
     height: 50px;
-    background-color: greenyellow;
-    margin: auto;
-    border-style: solid;
+    background-color: gray;
+    text-align: center;
 }
 .contenedor3{
-    width: 50%;
+    width: 25%;
     height: 50px;
-    background-color: greenyellow;
-    margin: auto;
-    border-style: double;
+    background-color: rgb(255, 99, 71);
+    text-align: center;
 }
 .contenedor4{
-    width: 50%;
+    width: 25%;
     height: 50px;
-    background-color: greenyellow;
-    margin: auto;
-    border-style: groove;
+    background-color: rgb(255, 165, 0);
+    text-align: center;
 }
 .contenedor5{
-    width: 50%;
+    width: 25%;
     height: 50px;
-    background-color: greenyellow;
-    margin: auto;
-    border-style: ridge;
+    background-color: rgb(128, 128, 128);
+    text-align: center;
 }
 .contenedor6{
-    width: 50%;
+    width: 25%;
     height: 50px;
-    background-color: greenyellow;
-    margin: auto;
-    border-style: inset;
+    background-color: rgb(60, 60, 60);
+    text-align: center;
 }
 .contenedor7{
-    width: 50%;
+    width: 25%;
     height: 50px;
-    background-color: greenyellow;
-    margin: auto;
-    border-style: outset;
+    background-color: rgb(120, 120, 120);
+    text-align: center;
 }
 .contenedor8{
-    width: 50%;
+    width: 25%;
     height: 50px;
-    background-color: greenyellow;
-    margin: auto;
-    border-style: none;
+    background-color: rgb(210, 210, 210);
+    text-align: center;
 }
 .contenedor9{
-    width: 50%;
+    width: 25%;
     height: 50px;
-    background-color: greenyellow;
-    margin: auto;
-    border-style: hidden;
+    background-color: rgb(255, 0, 0, 0.8);
+    text-align: center;
 }
 .contenedor10{
-    width: 50%;
+    width: 25%;
     height: 50px;
-    background-color: coral;
-    margin: 10px auto;
-    border-style: solid;
-    border-width: 10px;
+    background-color: rgb(255, 0, 0, 0.4);
+    text-align: center;
 }
 .contenedor11{
-    width: 50%;
+    width: 25%;
     height: 50px;
-    background-color: coral;
-    margin: 10px auto;
-    border-style: dotted;
-    border-width: thick;
+    background-color: rgb(255, 0, 0, 0);
+    text-align: center;
 }
 .contenedor12{
-    width: 50%;
+    width: 25%;
     height: 50px;
-    background-color: coral;
-    margin: 10px auto;
-    border-style: double;
-    border-width: 5px 20px;
+    background-color: #ff6347;
+    text-align: center;
 }
 .contenedor13{
-    width: 50%;
+    width: 25%;
     height: 50px;
-    background-color: coral;
-    margin: 10px auto;
-    border-style: solid;
-    border-width: 25px 10px 4px 35px;
+    background-color: #ffa500;
+    text-align: center;
 }
 .contenedor14{
-    width: 50%;
+    width: 25%;
     height: 50px;
-    margin: auto;
-    border-style: solid;
-    border-color: green;
+    background-color: #808080;
+    text-align: center;
 }
 .contenedor15{
-    width: 50%;
+    width: 25%;
     height: 50px;
-    margin: auto;
-    border-style: solid;
-    border-color: #8b0000;
+    background-color: #3c3c3c;
+    text-align: center;
 }
 .contenedor16{
-    width: 50%;
+    width: 25%;
     height: 50px;
-    margin: auto;
-    border-style: solid;
-    border-color: rgb(95, 160, 21);
+    background-color: #787878;
+    text-align: center;
 }
 .contenedor17{
-    width: 50%;
+    width: 25%;
     height: 50px;
-    margin: auto;
-    border-style: solid;
-    border-color: hsl(0, 100%, 50%);
+    background-color: #d2d2d2;
+    text-align: center;
 }
 .contenedor18{
-    width: 50%;
+    width: 30%;
     height: 50px;
-    margin: auto;
-    background-color: aquamarine;
-    border-style: solid;
-    border-color: transparent;
+    background-color: hsl(9, 100%, 64%);
+    text-align: center;
 }
 .contenedor19{
-    width: 50%;
+    width: 30%;
     height: 50px;
-    margin: auto;
-    border-style: solid;
-    border-color: red green yellow blue;
+    background-color: hsl(39, 100%, 50%);
+    text-align: center;
 }
 .contenedor20{
-    width: 50%;
+    width: 30%;
     height: 50px;
-    margin: auto;
-    border: 10px groove blue;
+    background-color: hsl(0, 0%, 50%);
+    text-align: center;
 }
 .contenedor21{
-    width: 50%;
+    width: 25%;
     height: 50px;
-    margin: auto;
-    border: 5px solid violet;
-    border-radius: 15px;
+    background-color: hsl(0, 0%, 24%);
+    text-align: center;
+}
+.contenedor22{
+    width: 25%;
+    height: 50px;
+    background-color: hsl(0, 0%, 47%);
+    text-align: center;
+}
+.contenedor23{
+    width: 25%;
+    height: 50px;
+    background-color: hsl(0, 0%, 82%);
+    text-align: center;
 }

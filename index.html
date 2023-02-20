@@ -4,84 +4,112 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Backgrounds</title>
+        <title>Colors</title>
         <link rel="stylesheet" href="css/styles.css"/>
     </head>
     <body>
         <!--propiedades de fuente css-->
-        <h1> PROPIEDADES DE BORDERS CSS </h1>
+        <h1> PROPIEDADES DE COLORS CSS </h1>
+        <p>Los colores se especifican utilizando nombres de color predefinidos o valores RGB, HEX, HSL, RGBA, HSLA.</p>
+        <p>Puede establecer el color de fondo para los elementos, color del texto, color de los bordes</p>
+        <h2>NOMBRE</h2>
+        <p>En CSS, se puede especificar un color usando un nombre de color predefinido: (CSS/HTML admite 140 nombres de colores estandar).</p>
+        <div class="contenedor">
+            <h3>Tomato</h3>
+        </div>
+        <div class="contenedor1">
+            <h3>Orange</h3>
+        </div>
+        <div class="contenedor2">
+            <h3>Gray</h3>
+        </div>
 
-        <h2>Border-style</h2>
-        <p>Tipo de borde a mostrar en un elemento</p>
-        <ul>
-            <li>dotted</li>
-            <div class="contenedor"></div>
-            <li>dashed</li>
-            <div class="contenedor1"></div>
-            <li>solid</li>
-            <div class="contenedor2"></div>
-            <li>double</li>
-            <div class="contenedor3"></div>
-            <li>groove</li>
-            <div class="contenedor4"></div>
-            <li>ridge</li>
-            <div class="contenedor5"></div>
-            <li>inset</li>
-            <div class="contenedor6"></div>
-            <li>outset</li>
-            <div class="contenedor7"></div>
-            <li>none</li>
-            <div class="contenedor8"></div>
-            <li>hidden</li>
-            <div class="contenedor9"></div>
-        </ul>
+        <h2>RGB</h2>
+        <p>En CSS, un color se puede especificar como un valor RGB, utilizando esta fórmula: rgb ( rojo, verde , azul ); Cada parámetro (rojo, verde y azul) define la intensidad del color entre 0 y 255.</p>
+        <div class="contenedor3">
+            <h3>Tomato <br> rgb(255, 99, 71)</h3>
+        </div>
+        <div class="contenedor4">
+            <h3>Orange <br> rgb(255, 165, 0)</h3>
+        </div>
+        <div class="contenedor5">
+            <h3>Gray <br> rgb(128, 128, 128)</h3>
+        </div>
+        <p>Los tonos de gris a menudo se definen utilizando valores iguales para las 3 fuentes de luz:</p>
+        <div class="contenedor6">
+            <h3>rgb(60, 60, 60)</h3>
+        </div>
+        <div class="contenedor7">
+            <h3>rgb(120, 120, 120)</h3>
+        </div>
+        <div class="contenedor8">
+            <h3>rgb(210, 210, 210)</h3>
+        </div>
 
-        <h2>Border-width</h2>
-        <p>Especifica ancho de los cuatro bordes. <br> Tamaño en:</p>
+        <h2>RGBA</h2>
+        <p>Los valores de color RGBA son una extensión de los valores de color RGB con un canal alfa, que especifica la opacidad de un color.
+            Un valor de color RGBA se especifica con:
+            rgba ( rojo, verde , azul, alfa )
+            El parámetro alfa es un número entre 0.0 (totalmente transparente) y 1.0 (nada transparente):
+        </p>
+        <div class="contenedor9">
+            <h3>rgb(255, 0, 0,0.8)</h3>
+        </div>
+        <div class="contenedor10">
+            <h3>rgb(255, 0, 0, 0.4)</h3>
+        </div>
+        <div class="contenedor11">
+            <h3>rgb(255, 0, 0, 0)</h3>
+        </div>
 
-        <ul>
-            <li>px</li>
-            <li>pt</li>
-            <li>cm</li>
-            <li>em</li>
-            <li>fino</li> 
-            <li>medio</li>
-            <li>grueso</li>  
-        </ul>
+        <h2>HEX</h2>
+        <p>Un color hexadecimal se especifica con: #RRGGBB, donde los enteros hexadecimales RR (rojo), GG (verde) y BB (azul) especifican los componentes del color.</p>
+        <div class="contenedor12">
+            <h3>Tomato <br> #ff6347</h3>
+        </div>
+        <div class="contenedor13">
+            <h3>Orange <br> #ffa500</h3>
+        </div>
+        <div class="contenedor14">
+            <h3>Gray <br> #808080 </h3>
+        </div>
+        <p>Los tonos de gris a menudo se definen utilizando valores iguales para las 3 fuentes de luz:</p>
+        <div class="contenedor15">
+            <h3>#3c3c3c</h3>
+        </div>
+        <div class="contenedor16">
+            <h3>#787878</h3>
+        </div>
+        <div class="contenedor17">
+            <h3>#d2d2d2</h3>
+        </div>
 
-        <div class="contenedor10"></div>
-        <div class="contenedor11"></div>
-        <div class="contenedor12"></div>
-        <div class="contenedor13"></div>
-
-        <h2>Border-color</h2>
-        <p>Establece color de los cuatro bordes</p>
-        <ul>
-            <li>nombre = green</li>
-            <div class="contenedor14"></div>
-            <li>HEX = #8b0000</li>
-            <div class="contenedor15"></div>
-            <li>RGB = rgb(95, 160, 21)</li>
-            <div class="contenedor16"></div>
-            <li>HSL = hsl(0, 100%, 50%)</li>
-            <div class="contenedor17"></div>
-            <li>Transparente</li>
-            <div class="contenedor18"></div>
-            <li>Cuatro bordes</li>
-            <div class="contenedor19"></div>
-        </ul>
-
-        <h2>Border</h2>
-        <p>Propiedad abrevidad. <br> ORDEN</p>
-        <ol>
-            <li>Border-width</li>
-            <li>Border-style</li>
-            <li>Border-color</li>
-        </ol>
-        <div class="contenedor20"></div>
-
-        <h2>Border-radius</h2>
-        <p>Propiedad para agregar bordes redondeados a un elemento</p>
-        <div class="contenedor21"></div>
+        <h2>HSL</h2>
+        <p>HSL significa tono, saturación y luminosidad. <br>
+            En CSS, un color se puede especificar utilizando el tono, la saturación y la luminosidad (HSL) en la forma:
+            hsl( tono , saturación , luminosidad )
+            El tono es un grado en la rueda de colores de 0 a 360. 0 es rojo, 120 es verde y 240 es azul.
+            La saturación es un valor porcentual. 0% significa un tono de gris y 100% es el color completo.
+            La ligereza también es un porcentaje. 0% es negro, 50% no es ni claro ni oscuro, 100% es blanco
+        </p>
+        <div class="contenedor18">
+            <h3>Tomato <br> hsl(9, 100%, 64%)</h3>
+        </div>
+        <div class="contenedor19">
+            <h3>Orange <br> hsl(39, 100%, 50%)</h3>
+        </div>
+        <div class="contenedor20">
+            <h3>Gray <br> hsl(0, 0%, 50%) </h3>
+        </div>
+        <p>Los tonos de gris a menudo se definen estableciendo el tono y la saturación en 0, y ajustando la luminosidad de 0 % a 100 % para obtener tonos más oscuros/claros:</p>
+        <div class="contenedor21">
+            <h3>hsl(0, 0%, 24%)</h3>
+        </div>
+        <div class="contenedor22">
+            <h3>hsl(0, 0%, 47%)</h3>
+        </div>
+        <div class="contenedor23">
+            <h3>hsl(0, 0%, 82%)</h3>
+        </div>
     </body>
 </html>
