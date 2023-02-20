@@ -3,11 +3,6 @@ body{
     width: calc(100vh - 60px);
     margin:auto;
     border: groove;
-    background-image: url(/img/harley.jpg);
-    margin: auto;
-    background-repeat: no-repeat;
-    background-position: right top;
-    background-attachment: fixed;
 }
 h1{
     text-align: center;
@@ -18,99 +13,160 @@ h2{
 }
 
 .contenedor{
-    width: 80%;
+    width: 50%;
     height: 50px;
     background-color: greenyellow;
     margin: auto;
+    border-style: dotted;
 }
 .contenedor1{
-    width: 80%;
+    width: 50%;
     height: 50px;
-    background-color:red;
+    background-color: greenyellow;
     margin: auto;
-    opacity: 0.3;
-    text-align: center;
-    font-size: 150%;
+    border-style: dashed;
 }
 .contenedor2{
-    width: 80%;
+    width: 50%;
     height: 50px;
-    background-color:rgb(51, 11, 196, 0.3);
+    background-color: greenyellow;
     margin: auto;
-    text-align: center;
-    font-size: 150%;
+    border-style: solid;
 }
 .contenedor3{
-    width: 80%;
+    width: 50%;
     height: 50px;
-    background-image: url(/img/harley.jpg);
+    background-color: greenyellow;
     margin: auto;
+    border-style: double;
 }
 .contenedor4{
-    width: 80%;
-    height: 150px;
-    background-image: url(/img/harley.jpg);
+    width: 50%;
+    height: 50px;
+    background-color: greenyellow;
     margin: auto;
-    background-repeat: repeat-y;
+    border-style: groove;
 }
 .contenedor5{
-    width: 80%;
+    width: 50%;
     height: 50px;
-    background-image: url(/img/harley.jpg);
+    background-color: greenyellow;
     margin: auto;
-    background-repeat: repeat-x;
+    border-style: ridge;
 }
 .contenedor6{
-    width: 80%;
+    width: 50%;
     height: 50px;
-    background-image: url(/img/harley.jpg);
+    background-color: greenyellow;
     margin: auto;
-    background-repeat: no-repeat;
+    border-style: inset;
 }
 .contenedor7{
-    width: 80%;
-    height: 150px;
-    background-image: url(/img/harley.jpg);
+    width: 50%;
+    height: 50px;
+    background-color: greenyellow;
     margin: auto;
-    background-repeat: no-repeat;
-    background-position: right top;
+    border-style: outset;
 }
 .contenedor8{
-    width: 80%;
-    height: 150px;
-    background-image: url(/img/harley.jpg);
+    width: 50%;
+    height: 50px;
+    background-color: greenyellow;
     margin: auto;
-    background-repeat: no-repeat;
-    background-position: right bottom;
+    border-style: none;
 }
 .contenedor9{
-    width: 80%;
-    height: 150px;
-    background-image: url(/img/harley.jpg);
+    width: 50%;
+    height: 50px;
+    background-color: greenyellow;
     margin: auto;
-    background-repeat: no-repeat;
-    background-position: left top;
+    border-style: hidden;
 }
 .contenedor10{
-    width: 80%;
-    height: 150px;
-    background-image: url(/img/harley.jpg);
-    margin: auto;
-    background-repeat: no-repeat;
-    background-position: left bottom;
+    width: 50%;
+    height: 50px;
+    background-color: coral;
+    margin: 10px auto;
+    border-style: solid;
+    border-width: 10px;
 }
 .contenedor11{
-    width: 80%;
-    height: 80px;
-    background-image: url(/img/harley.jpg);
-    margin: auto;
-    background-repeat: no-repeat;
-    background-position: right top;
-    background-attachment: scroll;
+    width: 50%;
+    height: 50px;
+    background-color: coral;
+    margin: 10px auto;
+    border-style: dotted;
+    border-width: thick;
 }
 .contenedor12{
-    width: 80%;
-    height: 500px;
+    width: 50%;
+    height: 50px;
+    background-color: coral;
+    margin: 10px auto;
+    border-style: double;
+    border-width: 5px 20px;
+}
+.contenedor13{
+    width: 50%;
+    height: 50px;
+    background-color: coral;
+    margin: 10px auto;
+    border-style: solid;
+    border-width: 25px 10px 4px 35px;
+}
+.contenedor14{
+    width: 50%;
+    height: 50px;
     margin: auto;
-    background:rgba(252, 39, 1, 0.3) url(/img/harley-quinn.jpg) no-repeat right top;
+    border-style: solid;
+    border-color: green;
+}
+.contenedor15{
+    width: 50%;
+    height: 50px;
+    margin: auto;
+    border-style: solid;
+    border-color: #8b0000;
+}
+.contenedor16{
+    width: 50%;
+    height: 50px;
+    margin: auto;
+    border-style: solid;
+    border-color: rgb(95, 160, 21);
+}
+.contenedor17{
+    width: 50%;
+    height: 50px;
+    margin: auto;
+    border-style: solid;
+    border-color: hsl(0, 100%, 50%);
+}
+.contenedor18{
+    width: 50%;
+    height: 50px;
+    margin: auto;
+    background-color: aquamarine;
+    border-style: solid;
+    border-color: transparent;
+}
+.contenedor19{
+    width: 50%;
+    height: 50px;
+    margin: auto;
+    border-style: solid;
+    border-color: red green yellow blue;
+}
+.contenedor20{
+    width: 50%;
+    height: 50px;
+    margin: auto;
+    border: 10px groove blue;
+}
+.contenedor21{
+    width: 50%;
+    height: 50px;
+    margin: auto;
+    border: 5px solid violet;
+    border-radius: 15px;
 }
