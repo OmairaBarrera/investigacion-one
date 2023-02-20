@@ -3,135 +3,114 @@ body{
     width: calc(100vh - 60px);
     margin:auto;
     border: groove;
+    background-image: url(/img/harley.jpg);
+    margin: auto;
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-attachment: fixed;
 }
-h1, h2{
+h1{
     text-align: center;
 }
-p{
+h2{
     font-weight: bold;
     color: blue;
 }
 
-.F-style1{
-    font-style: normal;
+.contenedor{
+    width: 80%;
+    height: 50px;
+    background-color: greenyellow;
+    margin: auto;
 }
-.F-style2{
-    font-style:italic;
+.contenedor1{
+    width: 80%;
+    height: 50px;
+    background-color:red;
+    margin: auto;
+    opacity: 0.3;
+    text-align: center;
+    font-size: 150%;
 }
-.F-style3{
-    font-style:oblique;
+.contenedor2{
+    width: 80%;
+    height: 50px;
+    background-color:rgb(51, 11, 196, 0.3);
+    margin: auto;
+    text-align: center;
+    font-size: 150%;
 }
-.F-variant1{
-    font-variant: normal;
+.contenedor3{
+    width: 80%;
+    height: 50px;
+    background-image: url(/img/harley.jpg);
+    margin: auto;
 }
-.F-variant2{
-    font-variant: small-caps;
+.contenedor4{
+    width: 80%;
+    height: 150px;
+    background-image: url(/img/harley.jpg);
+    margin: auto;
+    background-repeat: repeat-y;
 }
-.F-weight1{
-    font-weight: normal;
+.contenedor5{
+    width: 80%;
+    height: 50px;
+    background-image: url(/img/harley.jpg);
+    margin: auto;
+    background-repeat: repeat-x;
 }
-.F-weight2{
-    font-weight: bold;
+.contenedor6{
+    width: 80%;
+    height: 50px;
+    background-image: url(/img/harley.jpg);
+    margin: auto;
+    background-repeat: no-repeat;
 }
-.F-weight3-1{
-    font-weight:100;
+.contenedor7{
+    width: 80%;
+    height: 150px;
+    background-image: url(/img/harley.jpg);
+    margin: auto;
+    background-repeat: no-repeat;
+    background-position: right top;
 }
-.F-weight3-2{
-    font-weight:200;
+.contenedor8{
+    width: 80%;
+    height: 150px;
+    background-image: url(/img/harley.jpg);
+    margin: auto;
+    background-repeat: no-repeat;
+    background-position: right bottom;
 }
-.F-weight3-3{
-    font-weight:300;
+.contenedor9{
+    width: 80%;
+    height: 150px;
+    background-image: url(/img/harley.jpg);
+    margin: auto;
+    background-repeat: no-repeat;
+    background-position: left top;
 }
-.F-weight3-4{
-    font-weight:400;
+.contenedor10{
+    width: 80%;
+    height: 150px;
+    background-image: url(/img/harley.jpg);
+    margin: auto;
+    background-repeat: no-repeat;
+    background-position: left bottom;
 }
-.F-weight3-5{
-    font-weight:500;
+.contenedor11{
+    width: 80%;
+    height: 80px;
+    background-image: url(/img/harley.jpg);
+    margin: auto;
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-attachment: scroll;
 }
-.F-weight3-6{
-    font-weight:600;
-}
-.F-weight3-7{
-    font-weight:700;
-}
-.F-weight3-8{
-    font-weight:800;
-}
-.F-weight3-9{
-    font-weight:900;
-}
-.F-size1{
-    font-size: 70%;
-}
-.F-size2{
-    font-size: 20px;
-}
-.F-family1{
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-}
-.F-family2{
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-}
-.F.font1{
-    font: italic small-caps bold 25px Georgia, serif;
-}
-.F-font2{
-    font: small-caps;
-}
-.T-deco1{
-    text-decoration: overline;
-}
-.T-deco2{
-    text-decoration: line-through;
-}
-.T-deco3{
-    text-decoration: underline;
-}
-.T-deco4{
-    text-decoration: underline overline;
-}
-.T-tran1{
-    text-transform: uppercase;
-}
-.T-tran2{
-    text-transform: lowercase;
-}
-.T-tran3{
-    text-transform: capitalize;
-}
-.T-ali1{
-    text-align:right;
-}
-.T-ali2{
-    text-align: left;
-}
-.T-ali3{
-    text-align:center;
-}
-.T-ali4{
-    text-align: justify;
-}
-.T-ind{
-    text-indent: 10%;
-}
-.L-heig{
-    line-height:200%;
-}
-.L-spa{
-    letter-spacing: 15px;
-}
-.W-spa{
-    word-spacing: 15px;
-}
-.V-ali1{
-    vertical-align: baseline;
-}
-.V-ali2{
-    vertical-align: text-top;
-}
-.V-ali3{
-    vertical-align: super;
-}
-.V-ali4{
-    vertical-align: text-bottom;
+.contenedor12{
+    width: 80%;
+    height: 500px;
+    margin: auto;
+    background:rgba(252, 39, 1, 0.3) url(/img/harley-quinn.jpg) no-repeat right top;
 }
